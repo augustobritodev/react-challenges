@@ -87,17 +87,21 @@ h1 {
 button {
   border-radius: 5px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
   font-family: inherit;
-  background-color: #666666;
+  background-color: #FFF;
+  color: #000000;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s;
 }
 
 button:hover {
-  border-color: #61dafbaa;
+  background-color: #000000;
+  color: #FFF;
+  border-color: #FFF;
 }
 
 button:focus,
