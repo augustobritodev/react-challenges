@@ -25,9 +25,9 @@ What you need to do:
 
 ## Challenge 3: Find the word and its synonyms
 
-- [ ] Create an input to type a word
-- [ ] Create a button to search for the word in the API
-- [ ] Display a loading indicator while fetching the data
-- [ ] Display the results in a list limited to 10 items
-- [ ] When clicked on a result, search for the selected value
-- [ ] Use `datamuse` API: https://www.datamuse.com/api/
+- [x] Create an input to type a word
+- [x] Create a button to search for the word in the API
+- [x] Display a loading indicator while fetching the data
+- [x] Display the results in a list limited to 10 items
+- [x] When clicked on a result, search for the selected value
+- [x] Use `datamuse` API: https://www.datamuse.com/api/
