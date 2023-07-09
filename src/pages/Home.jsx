@@ -33,7 +33,7 @@ export default function Home() {
     <div className="flex h-screen">
       <div className="flex flex-col m-auto text-center">
         <img src={reactLogo} className="logo" alt="React logo" />
-        <h1>Challenges</h1>
+        <h1 className='mb-5'>Challenges</h1>
         <div id="challenges" className="grid gap-x-4 gap-y-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {challenges.map(({ id, name }, index) => <Challenge key={id} id={id} name={name} index={index} />)}
         </div>

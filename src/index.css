@@ -38,6 +38,7 @@ span {
 
 a:hover {
   color: var(--primary);
+  cursor: pointer;
 }
 
 body {
@@ -53,7 +54,6 @@ body {
 h1 {
   font-size: 3.2rem;
   line-height: 1.1;
-  padding-bottom: 3.2rem;
   font-weight: 500;
 }
 
