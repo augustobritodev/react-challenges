@@ -22,3 +22,12 @@ What you need to do:
 - [ ] Debounce the input so that it doesn't fetch data on every keystroke
 - [ ] Display the results in a list
 - [ ] When clicked on a result, display an Alert with the selected value
+
+## Challenge 3: Find the word and its synonyms
+
+- [ ] Create an input to type a word
+- [ ] Create a button to search for the word in the API
+- [ ] Display a loading indicator while fetching the data
+- [ ] Display the results in a list limited to 10 items
+- [ ] When clicked on a result, search for the selected value
+- [ ] Use `datamuse` API: https://www.datamuse.com/api/

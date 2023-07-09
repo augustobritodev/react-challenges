@@ -108,3 +108,17 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+
+input {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #FFF;
+  color: #000000;
+  transition: all 0.25s;
+}

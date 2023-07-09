@@ -14,6 +14,7 @@ function padZero(num) {
 const challenges = [
   { id: 'guess-the-color', name: 'Guess The Color' },
   { id: 'debounce-input', name: 'Debounce Input' },
+  { id: 'synonyms', name: 'Synonyms' },
 ]
 
 function Challenge(props) {
