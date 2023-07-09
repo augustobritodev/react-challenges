@@ -8,9 +8,9 @@ A simple game to guess the color based on the HEX values.
 
 What you need to do:
 
-- [ ] Randomize the color each time the game is refreshed
-- [ ] Display three buttons with HEX values
-- [ ] One of the three buttons should be the correct answer
+- [x] Randomize the color each time the game is refreshed
+- [x] Display three buttons with HEX values
+- [x] One of the three buttons should be the correct answer
 
 ## Challenge 2: Debounce Input
 
