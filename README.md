@@ -18,8 +18,8 @@ A simple input to get values from an API while typing and displaying the results
 
 What you need to do:
 
-- [ ] Create an input that fetches data from an API while typing
-- [ ] Debounce the input so that it doesn't fetch data on every keystroke
+- [x] Create an input that filters data fetched from an API while typing
+- [ ] Debounce the input so that it doesn't filter data on every keystroke
 - [ ] Display the results in a list
 - [ ] When clicked on a result, display an Alert with the selected value
 
