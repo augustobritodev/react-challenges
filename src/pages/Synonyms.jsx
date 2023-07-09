@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import { useRef } from "react"
 import useFetchSynonyms from "../hooks/useFetchSynonyms"
 import Loading from "../components/Loading"
@@ -5,6 +6,8 @@ import Loading from "../components/Loading"
 const API_URL = 'https://api.datamuse.com/words'
 
 export default function Synonyms() {
+
+  const navigate = useNavigate()
   const inputRef = useRef(null)
 
   const {
@@ -51,7 +54,10 @@ export default function Synonyms() {
 
   return (
     <div className="flex h-screen">
+
       <div className="mt-10 mx-auto text-center">
+        <a onClick={() => navigate('/')}>Go back</a>
+
         <div className="mb-5">
           <h1>Synonyms</h1>
           <h2>Type any word.</h2>
@@ -63,6 +69,7 @@ export default function Synonyms() {
           </button>
         </div>
         {SynonymsContent()}
+
       </div>
     </div>
   )
