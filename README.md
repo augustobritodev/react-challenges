@@ -20,8 +20,8 @@ What you need to do:
 
 - [x] Create an input that filters data fetched from an API while typing
 - [ ] Debounce the input so that it doesn't filter data on every keystroke
-- [ ] Display the results in a list
-- [ ] When clicked on a result, display an Alert with the selected value
+- [x] Display the results in a list
+- [x] When clicked on a result, display an Alert with the selected value
 
 ## Challenge 3: Find the word and its synonyms
 
